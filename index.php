@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>To-Do List 2</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<div class="wrap">
@@ -26,7 +26,6 @@
 						}
 					}
 				?>
-					?>
 				</ul>	
 		</div>
 		<form class="add-new-task" autocomplete="off">

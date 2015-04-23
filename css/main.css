@@ -1,10 +1,10 @@
 @import "reset.css";
 @import "normalize.css";
 
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(http://fonts.googleapis.com/css?family=Raleway:200);
 
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	background: #FF4747;
 }
 
