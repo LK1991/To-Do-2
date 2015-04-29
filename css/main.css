@@ -67,3 +67,9 @@ input {
 	padding: 15px 0px 0px 0px;
 	border-radius: 100px;
 }
+
+#home {
+	text-align: center;
+	background-color: white;
+	font-size: 15px;
+}

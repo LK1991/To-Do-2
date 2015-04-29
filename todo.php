@@ -10,7 +10,7 @@
 		<div class="task-list">
 				<ul>
 					<?php require("includes/connect.php"); 
-					$mysqli = new mysqli('localhost', 'root', 'root', 'todo');
+					$mysqli = new mysqli('localhost', 'root', 'root', 'todo2');
 					$query = "SELECT * FROM task ORDER BY date ASC, time ASC";
 					if($result = $mysqli->query($query)){
 						$numrows = $result->num_rows;
@@ -35,6 +35,7 @@
 	</div>
 </body>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script>
 	add_task(); // calling the add task function
 
@@ -44,8 +45,8 @@
 
 			if(new_task != '') {
 				$.post('includes/add-task.php', {task: new_task}, function(data) {
-					$('add-new-task input[name=new-task]').val();
-						$(data).appendTo('task-list ul').hide().fadeIn();
+					$('.add-new-task input[name=new-task]').val();
+						$(data).appendTo('.task-list ul').hide().fadeIn();
 				});
 			}
 			return false;

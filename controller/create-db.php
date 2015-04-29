@@ -11,10 +11,10 @@
               .  "PRIMARY KEY (id))");
 
      if ($query) {
-        echo "<p>Successfully created table: user</p>";
+       echo "<p>Successfully created table: user</p>";
      }
      else {
-        echo "<p>" . $_SESSION["connection"]->error . "</p>";
+        //echo "<p>" . $_SESSION["connection"]->error . "</p>";
      }
 
 

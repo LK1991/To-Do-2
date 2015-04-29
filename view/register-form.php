@@ -2,6 +2,7 @@
     require_once(__DIR__ . "/../model/config.php");
 
  ?>
+<li id = "home"><a href="<?php echo $path. "index.php" ?>">Home</a></li>
 
 <h1 id = "form">Register</h1>
 
