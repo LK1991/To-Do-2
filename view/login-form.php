@@ -3,9 +3,9 @@
 
  ?>
 
- <h1>Login</h1>
+ <h1 id = "form">Login</h1>
 
- <form method="post" action="<?php echo $path . "controller/login-user.php"; ?>"> 	
+ <form method="post" action="<?php echo $path . "controller/login-user.php"; ?>" id = "form"> 	
       <div>
 		<label for="username">Username: </label>
 		<input type="text" name="username" />
@@ -17,7 +17,7 @@
 	</div>
 
 	<div>
-		<button type="submit">Submit:</button>
+		<button type="submit" id = "submit">Submit</button>
 	</div>
  </form>
 

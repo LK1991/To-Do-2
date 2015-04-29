@@ -2,9 +2,6 @@
 
 	require_once(__DIR__ . "/database.php");
 
-	//require_once(__DIR__ . "/date.php");
-
-
 	// session preserve or save information that way we can use it over and over
 	session_start();
 	session_regenerate_id(true);

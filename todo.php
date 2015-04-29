@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+	<title>To-Do List</title>
 	<div class="wrap">
 		<div class="task-list">
 				<ul>
